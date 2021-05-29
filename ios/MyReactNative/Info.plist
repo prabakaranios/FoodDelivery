@@ -8,6 +8,8 @@
 	<string>MyReactNative</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -22,6 +24,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -39,12 +43,35 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Black.ttf</string>
+		<string>Roboto-BlackItalic.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-BoldItalic.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>Roboto-Light.tff</string>
+		<string>Roboto-LightItalic.ttf</string>
+		<string>Roboto-Medium.tff</string>
+		<string>Roboto-MediumItalic.tff</string>
+		<string>Roboto-Regular.tff</string>
+		<string>Roboto-Thin.tff</string>
+		<string>Roboto-ThinItalic.tff</string>
+		<string>RobotoCondensed-Bold.tff</string>
+		<string>RobotoCondensed-BoldItalic.tff</string>
+		<string>RobotoCondensed-Italic.tff</string>
+		<string>RobotoCondensed-Light.tff</string>
+		<string>RobotoCondensed-LightItalic.tff</string>
+		<string>RobotoCondensed-Regular.tff</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>SplashScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -53,7 +80,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-  <key>UIStatusBarStyle</key>
-  <string>UIStatusBarStyleDefault</string>
+	<key>app</key>
+	<string></string>
 </dict>
 </plist>

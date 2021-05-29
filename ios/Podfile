@@ -5,6 +5,14 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '11.0'
 
 target 'MyReactNative' do
+  
+  # React Native Maps dependencies
+   rn_maps_path = '../node_modules/react-native-maps'
+   pod 'react-native-google-maps', :path => rn_maps_path
+   pod 'GoogleMaps'
+   pod 'Google-Maps-iOS-Utils'
+
+   
   use_unimodules!
   config = use_native_modules!
 
@@ -18,4 +26,6 @@ target 'MyReactNative' do
   #     flipper_post_install(installer)
   #   end
   # end
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
 end
